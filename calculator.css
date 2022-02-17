@@ -1,0 +1,54 @@
+.calc{
+    position:absolute;
+    background-color:lightblue;
+    width:300px;
+    height:430px;
+    padding: 5px;
+    margin-top: 100px;
+    margin-left: 500px;
+    border: 5px solid black;
+    border-radius: 20px;
+    
+    
+  }
+  #disp{
+    display:block;
+    height:52px;
+    background-color:#000;
+    margin:8px;
+  }
+  .calc button{ 
+    height:54px;
+    width:71px;
+    background-color: whitesmoke;
+    margin : 0.5px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid black;
+
+  }
+  button:hover
+  {
+      background-color:red;
+      /* color: white; */
+  }
+   #add, #subtr, #mult, #modulus, #dec, #division, #clear, #ans, #dec {
+    background-color:white    ;
+   }
+   
+  #ans{
+    width:147px;
+  }
+  #clear{
+    width:147px;
+  }
+  #disp{
+    padding: 5px;
+    font-size:45px;
+    text-align:right;
+    overflow:auto;
+    background-color:white;
+   border-radius: 15px;
+    border: 2px solid black;
+  }
